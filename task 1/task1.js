@@ -1,7 +1,10 @@
+// שם: ליאון מברין
 
+// number to be checked
 const num = 123;
 
-// A count of 1 when the number (num) is divisible by 2, 3, and 5
+// count how many of the numbers 2, 3, and 5 divide the number without a remainder
 let result = Number(num % 3 === 0) + Number(num % 2 === 0) + Number(num % 5 === 0);
 
+// prints result of counting
 console.log(result);
