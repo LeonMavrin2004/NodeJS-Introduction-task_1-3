@@ -1,3 +1,5 @@
+// שם: ליאון מברין
+
 // returns true if the input number is a prime number
 function isPrime(num) {
     if (num <= 1) return false; 
@@ -9,9 +11,10 @@ function isPrime(num) {
     return true;
 }
 
+// number from the task
 const myNumber = 237;
 
-// prints every number that is prime number
+// prints all prime numbers smaller than myNumber
 for (let i = 2; i < myNumber; i++) {
     if (isPrime(i)) {
         console.log(i);
