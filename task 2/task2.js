@@ -1,4 +1,6 @@
-// שם: ליאון מברין
+// שמות מגישים:
+// ליאון מברין
+// דניאל ברששת
 
 // returns true if the input number is a prime number
 function isPrime(num) {
